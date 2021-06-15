@@ -1,0 +1,12 @@
+{
+    "name": "zoo",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "zoomの残留タブを20秒後にtwitterにリダイレクトかけます。",
+    "content_scripts": [{
+      "matches": ["https://zoom.us/j/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
