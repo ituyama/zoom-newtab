@@ -1,7 +1,12 @@
 function zoom(){
           
     const url = document.getElementById("message").value;
-    
-  window.open(url, "_blank", "");
+
+
+
+
+  const $window = window.open(url)
+  setTimeout(() => $window.close(), 3000)
+  
 
 }
