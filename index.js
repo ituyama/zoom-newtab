@@ -6,7 +6,7 @@ function zoom(){
 
 
   const $window = window.open(url)
-  setTimeout(() => $window.close(), 12000)
+  setTimeout(() => $window.close(), 60000)
   
 
 }
