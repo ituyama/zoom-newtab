@@ -1,6 +1,6 @@
 function zoom(){
           
-    const url = document.getElementById("message", "_blank", wOption).value;
+    const url = document.getElementById("message").value;
     
   window.open(url, "_blank", "");
 
